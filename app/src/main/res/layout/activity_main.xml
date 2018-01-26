@@ -112,10 +112,10 @@
             <TextView
 
                 android:layout_weight="1"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kham pha"
+                android:text="Khám phá"
                 android:textAlignment="center"
                 android:textColor="#000"
                 android:textStyle="bold"
@@ -137,10 +137,10 @@
                         android:layout_width="130dp"
                         android:layout_height="110dp"
                         android:id="@+id/bgImage2"
-                        android:src="@drawable/pic1"/>
+                        android:src="@drawable/ga"/>
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:src="@drawable/logoitem"
+                        android:src="@drawable/now"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_centerHorizontal="true"
@@ -151,10 +151,10 @@
                 <TextView
 
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:textSize="17dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kham pha"
+                    android:text="Đặt giao hàng"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textStyle="bold"
@@ -176,12 +176,12 @@
                         android:layout_width="130dp"
                         android:layout_height="110dp"
                         android:id="@+id/bgImage3"
-                        android:src="@drawable/pic1"/>
+                        android:src="@drawable/co"/>
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:src="@drawable/logoitem"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
+                        android:src="@drawable/tlogo"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
                         android:layout_centerHorizontal="true"
                         android:layout_alignBottom="@+id/bgImage3"
                         android:background="@drawable/added"
@@ -190,10 +190,10 @@
                 <TextView
 
                     android:layout_weight="1"
-                    android:textSize="20dp"
+                    android:textSize="17dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kham pha"
+                    android:text="Đặt chổ ưu đãi"
                     android:textAlignment="center"
                     android:textColor="#000"
                     android:textStyle="bold"
@@ -225,10 +225,10 @@
                     android:layout_width="130dp"
                     android:layout_height="110dp"
                     android:id="@+id/bgImage11"
-                    android:src="@drawable/pic1"/>
+                    android:src="@drawable/cfs"/>
 
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:src="@drawable/logoitem"
+                    android:src="@drawable/clogo"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_centerHorizontal="true"
@@ -239,10 +239,10 @@
             <TextView
 
                 android:layout_weight="1"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kham pha"
+                android:text="Coupon"
                 android:textAlignment="center"
                 android:textColor="#000"
                 android:textStyle="bold"
@@ -264,10 +264,10 @@
                     android:layout_width="130dp"
                     android:layout_height="110dp"
                     android:id="@+id/bgImage22"
-                    android:src="@drawable/pic1"/>
+                    android:src="@drawable/girls"/>
 
                 <de.hdodenhof.circleimageview.CircleImageView
-                    android:src="@drawable/logoitem"
+                    android:src="@drawable/slogo"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_centerHorizontal="true"
@@ -278,10 +278,10 @@
             <TextView
 
                 android:layout_weight="1"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kham pha"
+                android:text="Tự đặt món"
                 android:textAlignment="center"
                 android:textColor="#000"
                 android:textStyle="bold"
