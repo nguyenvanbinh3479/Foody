@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    tools:context="com.example.binh_pc.foody.Main2Activity">
+
+    <RelativeLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:id="@+id/rtlOne"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="3dp"
+            android:src="@drawable/cover"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rtlFive"
+        android:layout_below="@+id/rtlOne"
+        android:background="#fff"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rtlThree"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:text="Gần tôi"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingRight="10dp"
+                android:layout_width="wrap_content"
+                android:text="Thêm  "
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:textColor="#727272"
+                android:drawableRight="@drawable/ic_add_circle_black_24dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/lnOne"
+            android:layout_below="@+id/rtlThree"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rtlTwo"
+                    android:layout_width="160dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="117dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/cff"
+                        />
+                    <TextView
+                        android:background="#6e6e6e"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="44m"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@android:color/white"
+                        android:layout_alignParentBottom="true"
+                        android:textStyle="bold"
+                        android:textSize="19dp"
+                        android:drawableLeft="@drawable/ic_near_me_black_24dp"
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:text="  Tabac Cafe - Phạ..."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="367 Phạm Ngũ lão,P. ..."
+                    android:layout_marginBottom="3dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rtlTwo1"
+                    android:layout_width="160dp"
+                    android:layout_margin="10dp"
+                    android:layout_height="117dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bm"
+                        />
+                    <TextView
+                        android:background="#6e6e6e"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="44m"
+                        android:layout_alignParentRight="true"
+                        android:textColor="@android:color/white"
+                        android:layout_alignParentBottom="true"
+                        android:textStyle="bold"
+                        android:textSize="19dp"
+                        android:drawableLeft="@drawable/ic_near_me_black_24dp"
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:text="  Bánh Mỳ Chim..."
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_brightness_1_black_24dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="Cổng Chính cợ Thái Bình,..."
+                    android:layout_marginBottom="3dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rtlFour"
+        android:background="#fff"
+        android:layout_below="@+id/rtlFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/rtlThree1"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:paddingLeft="10dp"
+                android:layout_width="wrap_content"
+                android:text="Mới nhất"
+                android:textSize="20sp"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:paddingRight="10dp"
+                android:layout_width="wrap_content"
+                android:text="Bộ lọc  "
+                android:textSize="20sp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:textColor="#727272"
+                android:drawableRight="@drawable/ic_tune_black_24dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rtlFour1"
+        android:layout_marginTop="1dp"
+        android:background="#fff"
+        android:layout_below="@+id/rtlFour"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rtlSix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_brightness_1_black_24dp"
+                    />
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6.8"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    />
+
+            </RelativeLayout>
+        <TextView
+            android:id="@+id/tvOne"
+            android:layout_toRightOf="@+id/rtlSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trad Sữa Heekcaa - Huỳnh Thúc Kháng"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:id="@+id/tvTwo"
+            android:layout_toRightOf="@+id/rtlSix"
+            android:layout_below="@+id/tvOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 Huỳnh Thúc Kháng, Quận 1, TP. HCM     "
+            android:textSize="16sp"
+            android:textColor="#727272"
+            />
+        <TextView
+
+            android:layout_toRightOf="@+id/tvTwo"
+            android:layout_below="@+id/tvOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1,7km"
+            android:drawableLeft="@drawable/ic_near_me_black_24dp"
+            android:textSize="16sp"
+            android:textColor="#727272"
+            />
+        <RelativeLayout
+
+            android:layout_below="@+id/tvTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cover1"
+                />
+            <ImageView
+                android:src="@drawable/ic_play_circle_outline_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        >
+        <LinearLayout
+            android:weightSum="5"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_home_black_24dp"
+                />
+            <ImageButton
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_bookmark_black_24dp"
+                />
+            <ImageButton
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_receipt_black_24dp"
+                />
+            <ImageButton
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_notifications_black_24dp"
+                />
+            <ImageButton
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_account_box_black_24dp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

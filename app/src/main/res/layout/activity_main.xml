@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.binh_pc.foody.MainActivity"
-    android:background="#f7ffbc">
+    android:background="#f9ffce">
 
         <LinearLayout
             android:layout_width="match_parent"
