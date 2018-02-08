@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="#dfdfdf"
     tools:context="com.example.binh_pc.foody.Main2Activity">
-
     <RelativeLayout
         android:layout_alignParentTop="true"
         android:layout_width="match_parent"

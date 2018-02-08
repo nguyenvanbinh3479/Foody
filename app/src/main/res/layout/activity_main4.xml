@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.binh_pc.foody.Main4Activity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/top"
+        android:background="#be0d1e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:src="@drawable/ic_chevron_left_black_24dp"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:hint="Tìm địa điểm, dịch vụ"
+            android:background="@android:color/white"
+            android:layout_width="340dp"
+            android:drawableRight="địa điểm"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:background="#c4c4c4"
+        android:layout_below="@+id/top"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:text="Đúng nhất"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:text="Đúng nhất"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:text="Đúng nhất"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:text="Bộ lọc"
+            android:drawableRight="@drawable/ic_tune_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="5 Phạm Ngũ Lão, Quận 1, Hồ chí Minh, Vietnam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:text=" 250m"
+            android:drawableLeft="@drawable/ic_fullscreen_exit_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>
